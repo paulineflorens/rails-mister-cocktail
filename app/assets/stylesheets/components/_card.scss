@@ -2,6 +2,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 16px;
+  margin-top: 25px;
+
 }
 
 // Smallest device
@@ -37,4 +39,21 @@
   .cards {
     grid-template-columns: 1fr 1fr 1fr;
   }
+}
+
+// photo
+.card-category {
+background-size: cover;
+ display: flex;
+ flex-direction: column;
+ background-position: center;
+ height: 200px;
+ justify-content: center;
+ align-items: center;
+ color: white;
+ font-size: 24px;
+ font-weight: bold;
+ text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+ background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), asset-url('');
+ margin-top: 20px;
 }
